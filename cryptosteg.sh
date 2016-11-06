@@ -2,10 +2,12 @@
 # CryptoSteg
 # Encrypt files and steg them to pictures
 
+# GPLv2 or later - aurelien@hackers.camp - Aurelien DESBRIERES
+# find the license at gnu.org and much more ;-)
+
 # Variables
 ENCRYPT=$"gpg -c"
 DECRYPT=$"gpg"
-NOW=$(date +"%m_%d_%Y")
 
 # Clear the terminal
 tput clear
